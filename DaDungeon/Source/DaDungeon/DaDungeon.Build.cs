@@ -17,6 +17,7 @@ public class DaDungeon : ModuleRules
 			"AIModule",
 			"StateTreeModule",
 			"GameplayStateTreeModule",
+			"GameplayTags",
 			"UMG",
 			"Slate"
 		});
