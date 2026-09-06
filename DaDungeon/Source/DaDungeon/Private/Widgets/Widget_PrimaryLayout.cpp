@@ -19,7 +19,7 @@ void UWidget_PrimaryLayout::RegisterWidgetStack(UPARAM(meta = (Categories = "Fro
 		{
 			RegisteredWidgetStackMap.Add(InStackTag, InStack);
 			
-			Debug::Print(TEXT("Registered widget stack %s") + InStackTag.ToString());
+			// Debug::Print(TEXT("Registered widget stack %s") + InStackTag.ToString());
 		}
 	}
 }
