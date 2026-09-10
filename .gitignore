@@ -77,6 +77,42 @@ Build/*/**
 !Build/*/PakBlacklist*.txt
 !Build/**/*.ico
 
+# ── Third-party / Fab marketplace content — do not commit ───────
+# Quarantined under DaDungeon/Content/_ThirdParty/ (~10 GB+). Recreate via
+# Fab/Epic Launcher "Add to Project" instead of cloning.
+DaDungeon/Content/_ThirdParty/**
+**/Content/_ThirdParty/**
+**/_ThirdParty/**
+!DaDungeon/Content/_ThirdParty/README.md
+!**/Content/_ThirdParty/README.md
+!**/_ThirdParty/README.md
+
+# Proactive: Agora & Monolith are still downloading — if they land at
+# Content/Agora/ or Content/Monolith/ (or ParagonAgora/Monolith) before
+# you move them to _ThirdParty/, they are already ignored.
+DaDungeon/Content/Agora/
+DaDungeon/Content/Monolith/
+DaDungeon/Content/ParagonAgora/
+DaDungeon/Content/ParagonMonolith/
+**/Content/Agora/
+**/Content/Monolith/
+**/Content/ParagonAgora/
+**/Content/ParagonMonolith/
+
+# Belt-and-suspenders for top-level restores (e.g. re-adding via Launcher)
+DaDungeon/Content/ModularSciFiStation/
+DaDungeon/Content/ParagonMinions/
+DaDungeon/Content/ParagonLtBelica/
+DaDungeon/Content/ParagonWraith/
+DaDungeon/Content/ParagonMuriel/
+DaDungeon/Content/ParagonMaleAnnouncer/
+**/ModularSciFiStation/
+**/ParagonMinions/
+**/ParagonLtBelica/
+**/ParagonWraith/
+**/ParagonMuriel/
+**/ParagonMaleAnnouncer/
+
 # ── OS junk ──────────────────────────────────────────────────────
 Thumbs.db
 ehthumbs.db
