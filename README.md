@@ -6,8 +6,6 @@
 
 A UE5 + C++ practice project for learning engine systems through building.  
 C++ for gameplay logic, Data Assets for tuning, Blueprints for asset wiring only.  
-A small first-person dungeon sandbox: stats, interaction, enemies, triggers, progression, saves, and a CommonUI frontend.
-
 <br/>
 
 </div>
