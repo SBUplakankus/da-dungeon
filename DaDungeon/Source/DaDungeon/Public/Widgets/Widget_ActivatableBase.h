@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "CommonActivatableWidget.h"
+#include "Controllers/FrontendPlayerController.h"
 #include "Widget_ActivatableBase.generated.h"
 
 /**
@@ -14,4 +15,10 @@ class DADUNGEON_API UWidget_ActivatableBase : public UCommonActivatableWidget
 {
 	GENERATED_BODY()
 	
+protected:
+	UFUNCTION(BlueprintPure)
+	AFrontendPlayerController* GetOwningFrontendPlayerController();
+	
+private:
+	TWeakObjectPtr<AFrontendPlayerController> CachedOwningFrontendPC;
 };
