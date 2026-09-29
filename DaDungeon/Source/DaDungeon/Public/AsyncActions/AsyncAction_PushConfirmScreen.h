@@ -19,7 +19,7 @@ class DADUNGEON_API UAsyncAction_PushConfirmScreen : public UBlueprintAsyncActio
 	
 public:
 	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject", HidePin = "WorldContextObject", 
-		BlueprintInternalUseOnly = "true", DisplayName = "PShow Confirmation Screen"))
+		BlueprintInternalUseOnly = "true", DisplayName = "Show Confirmation Screen"))
 	static UAsyncAction_PushConfirmScreen* PushConfirmScreen(
 		const UObject* WorldContextObject,
 		EConfirmScreenType ScreenType,
