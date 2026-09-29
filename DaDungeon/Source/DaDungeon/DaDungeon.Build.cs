@@ -19,7 +19,9 @@ public class DaDungeon : ModuleRules
 			"GameplayStateTreeModule",
 			"GameplayTags",
 			"UMG",
-			"Slate", "CommonUI"
+			"Slate", 
+			"CommonUI",
+			"CommonInput"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });

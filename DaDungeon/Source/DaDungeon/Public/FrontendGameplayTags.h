@@ -16,6 +16,7 @@ namespace FrontendGameplayTags
 	// Front End Widgets
 	DADUNGEON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Frontend_Widget_PressAnyKeyScreen);
 	DADUNGEON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Frontend_Widget_MainMenuScreen);
+	DADUNGEON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(Frontend_Widget_ConfirmScreen);
 }
 
 
